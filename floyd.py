@@ -8,7 +8,6 @@ weighted = numpy.array([
     [infinit,infinit,6,0]
 ])
 dim = len(weighted)
-# R = numpy.zeros((dim,dim) , dtype=int)
 R = numpy.zeros((dim,dim) , dtype=int)
 # A[i][j](k) = min(A[i][j](k-1) , A[i][k](k-1) + A[k][j](k-1))
 
